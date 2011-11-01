@@ -19,7 +19,7 @@ public class Cache<T> : ICache<T>
 var container = new Container()
     .Register<IService, MyService>()                               // Register class for interface
     .Register<ICache<string>, Cache<string>>(Lifestyle.Singleton)  // Register specific type of open-generic, also make it singleton
-    .Register<IList<string>>(() => new List<string>())                          // Register implentation by factory method
+    .Register<IList<string>>(() => new List<string>())             // Register implentation by factory method
     ;
 
 var service = container.Resolve<IService>();
