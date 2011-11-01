@@ -1,0 +1,28 @@
+Yet another tiny container.  A wee IoC container I wrote for fun and learning.
+
+Use it like so:
+
+public interface IService {}
+
+public interface ICache<T> {}
+
+public class MyService : IService
+{
+    public MyService(ICache<string> cache){}
+}
+
+public class Cache<T> : ICache<T>
+{
+    public Cache(IList<string> store){}
+}
+
+var store = new List<string>();
+
+var container = new Container()
+    .Register<IService, MyService>()
+    .Register<ICache<string>, Cache<string>>(Lifestyle.Singleton)
+    .Register<IList<string>>(() => store)
+    ;
+
+var service = container.Resolve<IService>();
+ 
