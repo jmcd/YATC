@@ -1,0 +1,5 @@
+c:\Development\Yatc\Yatc\obj\Debug\ResolveAssemblyReference.cache
+c:\Development\Yatc\Yatc\bin\Debug\Yatc.dll
+c:\Development\Yatc\Yatc\bin\Debug\Yatc.pdb
+c:\Development\Yatc\Yatc\obj\Debug\Yatc.dll
+c:\Development\Yatc\Yatc\obj\Debug\Yatc.pdb

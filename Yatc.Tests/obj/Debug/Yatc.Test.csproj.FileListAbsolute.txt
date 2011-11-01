@@ -1,0 +1,11 @@
+c:\Development\Yatc\Yatc.Test\obj\Debug\ResolveAssemblyReference.cache
+c:\Development\Yatc\Yatc.Test\bin\Debug\Yatc.Test.dll
+c:\Development\Yatc\Yatc.Test\bin\Debug\Yatc.Test.pdb
+c:\Development\Yatc\Yatc.Test\bin\Debug\nunit.framework.dll
+c:\Development\Yatc\Yatc.Test\bin\Debug\nunit.mocks.dll
+c:\Development\Yatc\Yatc.Test\bin\Debug\pnunit.framework.dll
+c:\Development\Yatc\Yatc.Test\bin\Debug\Yatc.dll
+c:\Development\Yatc\Yatc.Test\bin\Debug\Yatc.pdb
+c:\Development\Yatc\Yatc.Test\bin\Debug\nunit.framework.xml
+c:\Development\Yatc\Yatc.Test\obj\Debug\Yatc.Test.dll
+c:\Development\Yatc\Yatc.Test\obj\Debug\Yatc.Test.pdb
